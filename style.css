@@ -99,7 +99,16 @@ body {
   font-size: 4rem;
 }
 
+@media(max-width: 600px) {
+  #navbar ul li {
+    display: block;
+  }
 
+  #navbar ul li:hover {
+    width: 100%;
+    position: relative;
+  }
+}
 
 
 
